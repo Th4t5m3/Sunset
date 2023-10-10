@@ -1,0 +1,550 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+
+body {
+    box-sizing: border-box;
+}
+
+@keyframes darkening {
+
+    0%{
+        filter:brightness(100%)
+
+    }
+
+    2.5%{
+        filter:brightness(92,2216%)
+
+    }
+
+    5%{
+        filter:brightness(84,4439%)
+    }
+
+    10% {
+        filter:brightness(76,6662%)
+        
+}
+
+
+    20% {
+        filter:brightness(68.8885%)
+    }
+
+    30% {
+        filter:brightness(61.1108%)
+    }
+
+
+    40%{
+        filter:brightness(53.3331%)
+}
+
+
+    50%{
+
+        filter:brightness(45.5554%)
+}
+
+
+    60%{
+        filter:brightness(40%)
+}
+
+    70%{
+        filter:brightness(37.7777%)
+
+}
+
+        
+ 100% {  
+    filter:brightness(30%)
+    }
+}
+
+
+@keyframes mountain-color{
+
+10%{
+    background: linear-gradient(90deg,#af7b01,#b110eb);        
+ }
+
+20%{
+    background: linear-gradient(90deg,#886004,#b110eb);    
+}
+
+30%{
+    background: linear-gradient(90deg,#705003,#ac11a4);    
+}
+
+40%{
+    background: linear-gradient(90deg,#705003,#6e0569);
+}
+
+50%{
+    background: linear-gradient(90deg,#705003,#4b0247);
+}
+
+60%{
+    background: linear-gradient(90deg,#705003,#4b0247);
+}
+
+100%{
+    background: linear-gradient(90deg,#705003,#4b0247);
+}
+
+
+}
+
+
+@keyframes sunshine-after{
+
+    0% {
+        height: 4.5rem;
+        width: 4.5rem;;
+        box-shadow: 5px 5px 20px  yellow;
+    }
+     
+
+    10% {
+        height: 6.5rem;
+        width: 6.5rem;
+    box-shadow: 5px 5px 20px  yellow;
+}
+
+
+
+20% {
+    height:8.5rem;
+    width: 8.5rem;
+    box-shadow: 5px 5px 20px  yellow;
+}
+
+
+    30% {
+        height: 10.5rem;
+        width: 10.5rem;  
+      box-shadow: 5px 5px 20px  yellow;
+        
+    }
+
+    40%{
+        height: 12.5rem;
+        width: 12.5rem;
+    box-shadow: 5px 5px 20px  yellow; 
+}
+
+
+
+    50%{
+        height: 14.5rem;
+        width: 14.5rem;
+    box-shadow: 1px 1px 20px  yellow; 
+}
+
+
+    60%{
+        height: 16rem;
+    width: 16rem;
+   box-shadow: 1px 1px 20px  yellow; 
+}
+
+
+70%{height: 19rem;
+    width: 19rem;
+box-shadow: 1px 1px 20px  yellow; 
+}
+
+80%{
+    visibility: hidden;
+    box-shadow:none;
+}
+
+
+
+    90%{
+        visibility: hidden;
+        box-shadow:none;
+    }
+
+
+
+    100% {  
+    visibility: hidden;
+    box-shadow:none;
+    }
+}
+
+@keyframes sunshine-before{
+    0% {
+        height: 4.5rem;
+        width: 4.5rem;;
+        box-shadow: -5px -5px 20px  yellow;
+    }
+     
+
+    10% {
+        height: 6.5rem;
+        width: 6.5rem;
+    box-shadow: -5px -5px 20px  yellow;
+}
+
+
+
+20% {
+    height:8.5rem;
+    width: 8.5rem;
+    box-shadow: -5px -5px 20px  yellow;
+}
+
+
+    30% {
+        height: 10.5rem;
+        width: 10.5rem;  
+      box-shadow: -5px -5px 20px  yellow;
+        
+    }
+
+    40%{
+        height: 12.5rem;
+        width: 12.5rem;
+    box-shadow: -5px -5px 20px  yellow; 
+}
+
+
+
+    50%{
+        height: 14.5rem;
+        width: 14.5rem;
+    box-shadow: -1px -1px 20px  yellow; 
+}
+
+
+    60%{
+        height: 16rem;
+    width: 16rem;
+   box-shadow: -1px -1px 20px  yellow; 
+}
+
+
+    70%{height: 19rem;
+        width: 19rem;
+    box-shadow: -1px -1px 20px  yellow; 
+}
+
+    80%{
+        visibility: hidden;
+        box-shadow:none;
+    
+
+    }
+
+90%{
+    visibility: hidden;
+    box-shadow:none;
+
+}
+
+ 100% {  
+    visibility: hidden;
+    box-shadow:none;
+    }
+}
+
+@keyframes sunset {
+    0% {
+        height: 4.5rem;
+        width: 4.5rem;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        
+    }
+
+    5%{
+        height: 5.5rem;
+        width: 5.5rem;
+        margin-top: 6rem;
+        margin-left: 6rem;
+    }
+ 
+
+    10% {
+    height: 6.5rem;
+    width: 6.5rem;
+    margin-top:8rem;
+    margin-left:8rem ;
+    
+}
+
+    15%{
+        height: 7.5rem;
+        width: 7.5rem;
+        margin-top: 10rem;
+        margin-left: 10rem;
+    }
+
+    20% {
+    height:8.5rem;
+    width: 8.5rem;
+    margin-top: 12rem;
+    margin-left: 12rem;
+    
+}
+
+    25%{
+        height: 9.5rem;
+        width: 9.5rem;
+        margin-top: 13rem;
+        margin-left: 13rem;
+    }
+
+    30% {
+      height: 10.5rem;
+      width: 10.5rem;
+      margin-top: 14rem;
+      margin-left: 14rem;
+      
+        
+    }
+
+    35%{
+        height: 10.5rem;
+        width: 10.5rem;
+        margin-top: 15rem;
+        margin-left: 15rem;
+    }
+
+
+    40%{
+    height: 12.5rem;
+    width: 12.5rem;
+    margin-top:16rem;
+    margin-left:16rem ;
+     
+}
+
+45%{
+    height: 13.5rem;
+    width: 13.5rem;
+    margin-top: 17rem;
+    margin-left: 17rem;
+}
+
+    50%{height: 14.5rem;
+    width: 14.5rem;
+    margin-top: 18rem;
+    margin-left:18rem;
+     
+}
+
+55%{
+    height: 16.5rem;
+    width: 16.5rem;
+    margin-top: 19rem;
+    margin-left: 19rem;
+}
+
+    60%{height: 18rem;
+    width: 18rem;
+    margin-top:19.5rem ;
+    margin-left:19.5rem ;
+     
+}
+
+
+    70%{height: 19rem;
+    width: 19rem;
+    margin-top: 21rem;
+    margin-left:21rem;
+}
+    
+
+    80%{height: 19.25rem;
+    width: 19.25rem;
+    margin-top: 22.5rem;
+    margin-left: 22.5rem;
+    
+}
+
+
+90%{height: 19.75rem;
+    width: 19.75rem;
+    margin-top: 25rem;
+    margin-left: 25rem;
+    
+}
+
+
+    100%{height: 20rem;
+        width: 20rem;
+        margin-top:27.5rem ;
+        margin-left:27.5rem ;
+        
+    }
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 41% repeat(6, 1fr);
+    height: 100vh;
+}
+
+
+.mountain-container{
+    position: inherit;
+    display: inline-grid;
+    grid-column: 1/-1;
+    grid-row: 1/7;
+    background-color: #6c3b0c;
+    
+}
+
+
+.mountains-top{
+    position: relative;
+    display: inline-block;
+    grid-column: 1 / -1;
+    grid-row: 1/7;
+    box-sizing: border-box;
+    background: linear-gradient(90deg,#e3a000,#b110eb );    
+    clip-path: polygon(0% 100%, 0% 37%, 24% 18%, 37% 27%, 59% 10%, 81% 18%, 100% 0%, 100% 100%);
+    filter: blur(10px);
+    z-index: 15;
+    animation: mountain-color 10s ease-in-out .25s 1 forwards;
+}
+
+.mountain { 
+    position: absolute;
+    top: 5rem;
+    height: 98%;
+    width: 100%;
+    grid-column:  1 / -1;
+    grid-row: 1 / 7;
+    clip-path: polygon(0% 100%, 0% 37%, 24% 18%, 37% 27%, 59% 10%, 81% 18%, 100% 0%, 100% 100%);
+    background-color: #6c3b0c;
+}
+.lvl-3 {
+    z-index: 20;
+}
+
+
+
+.sky {
+  
+    grid-column: 1/-1;
+    grid-row: 1/1;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(167,209,238,1) 0%, rgba(17,17,237,1) 100%);
+    z-index: 8;
+}
+
+
+.sun { 
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-color: yellow;
+    border-radius: 50%;
+    height: 4.5rem;
+    width: 4.5rem;
+    margin-top: 2rem;
+    margin-left:2rem;
+    animation: sunset 10s linear .25s 1 forwards;
+    z-index: 10;
+}
+
+.sun::before,
+.sun::after
+{
+    position: absolute;
+    content:"";
+    width:4.5rem;
+    height:4.5rem;
+    border-radius: 50%;
+    opacity: 0.3;
+    z-index: 9;
+    background: linear-gradient(45deg, yellow, white);
+    filter: blur(5px);
+}
+
+.sun::before{
+  
+    animation: sunshine-before 10s ease-in-out .25s 1 forwards;
+   
+}
+
+
+.sun:after{
+   
+    animation: sunshine-after 10s ease-in-out .25s 1 forwards;
+}
+
+
+.tree {
+    display: inline grid;
+    position: relative;
+    bottom: -47px;
+}
+
+.tree_1 {
+    grid-column: 3/3;
+    grid-row: 3/7;
+}
+
+
+.tree_2 {
+    grid-column: 4/4;
+    grid-row: 3/7;
+}
+
+.tree_3 {
+    grid-column: 5/5;
+    grid-row: 2/7;
+    bottom: -59px;
+}
+
+
+.dog{
+   grid-column: 2/2;
+   grid-row: 5/7;
+
+}
+
+.puppy {
+    display: inline grid;
+    position: relative;
+    bottom: -15rem;
+    height: 40%;
+    width: 35%;
+}
+
+.grass {
+    grid-column: 1/-1;
+    grid-row: 7/8;
+    background-color: #5c940d;
+}
+
+.first-tree,
+.second-tree,
+.third-tree {
+    height: 100%;
+    width: 65%;;
+}
+
+
+body{
+    border:0 12px solid #6c3b0c;
+    animation: darkening 10s ease-in-out .3s 1 forwards;
+}
